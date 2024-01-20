@@ -12,8 +12,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint . --ext .ts",
     "lint-fix": "eslint . --ext .ts --fix",
-    "commit-lint": "npx commitlint -E HUSKY_GIT_PARAMS",
     "release": "npx changelogen@latest --patch --release --push",
+    "commitlint": "commitlint -E HUSKY_GIT_PARAMS",
     "pre-commit": "lint-staged",
     "prepare": "husky install",
     "format": "prettier --write --ignore-unknown ."
@@ -46,7 +46,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "npm run commit-lint",
+      "commit-msg": "npm run commitlint",
       "pre-commit": "lint-staged"
     }
   },
