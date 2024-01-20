@@ -1,13 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxt/test-utils/module", "@pinia/nuxt"],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/test-utils/module', '@pinia/nuxt'],
   pinia: {
-    storesDirs: ["./stores/**"],
+    storesDirs: ['./stores/**'],
   },
   tailwindcss: {
     exposeConfig: true,
     viewer: true,
     // and more...
   },
-});
+})
