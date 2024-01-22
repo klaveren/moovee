@@ -1,0 +1,19 @@
+body {
+  overflow: hidden;
+}
+
+a {
+  font-weight: bold;
+}
+a:hover {
+  color: #3490dc;
+}
+
+button:hover {
+  background-color: #3490dc;
+}
+
+.active-link {
+  color: #3490dc;
+  font-weight: bold;
+}
