@@ -1,22 +1,18 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  app: {
-    pageTransition: { name: 'slide-right', mode: 'out-in' },
-  },
   modules: [
+    '@nuxt/image',
     '@nuxtjs/tailwindcss',
     '@nuxt/test-utils/module', // 'nuxt-lazy-load',
     '@pinia/nuxt',
-    '@nuxt/image',
   ],
   pinia: {
     storesDirs: ['./stores/**'],
   },
   tailwindcss: {
     exposeConfig: true,
-    viewer: true,
-    // and more...
+    viewer: false,
   },
   css: ['@/assets/scss/main.scss'],
   imports: {
