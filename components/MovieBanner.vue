@@ -46,9 +46,9 @@
             <h2 class="text-2xl font-bold">{{ movie.tagline }}</h2>
           </div>
 
-          <div class="section pb-10">
+          <div class="section pb-10" :style="{ width: '45vw' }">
             <h3 class="text-lg font-bold mb-2">Overview</h3>
-            <p class="text-sm" :style="{ width: '60vw' }">
+            <p class="text-sm">
               {{ movie.overview }}
             </p>
           </div>
