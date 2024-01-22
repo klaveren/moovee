@@ -1,12 +1,12 @@
 {
-  "name": "pilar-films",
+  "name": "my-films",
   "private": true,
   "type": "module",
   "author": "Henrique Van Klaveren",
   "license": "ISC",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "rm -Rf ./node_modules/.vite && nuxt dev",
     "generate": "npm run format && npm run lint-fix && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
@@ -21,6 +21,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
     "@commitlint/config-conventional": "^18.4.4",
+    "@nuxt/image": "^1.3.0",
     "@nuxt/test-utils": "^3.10.0",
     "@nuxtjs/tailwindcss": "^6.11.0",
     "@pinia/nuxt": "^0.5.1",
@@ -33,8 +34,10 @@
     "husky": "^8.0.3",
     "lint-staged": "^15.2.0",
     "nuxt": "^3.8.2",
+    "nuxt-lazy-load": "^3.0.4",
     "pinia": "^2.1.7",
     "prettier": "^3.1.1",
+    "sass": "^1.70.0",
     "vitest": "^1.2.1",
     "vue": "^3.4.14",
     "vue-router": "^4.2.5"
@@ -49,6 +52,5 @@
       "commit-msg": "npm run commitlint",
       "pre-commit": "lint-staged"
     }
-  },
-  "dependencies": {}
+  }
 }
