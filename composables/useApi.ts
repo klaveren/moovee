@@ -37,8 +37,6 @@ export async function useApi<T>(
       },
     }
 
-    console.log(`${baseUrl}${url}?${urlSearchParams.toString()}`)
-
     const { data, pending, error, refresh } = await useFetch(
       `${baseUrl}${url}?${urlSearchParams.toString()}`,
       authOptions
