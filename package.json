@@ -57,5 +57,6 @@
       "commit-msg": "npm run commitlint",
       "pre-commit": "lint-staged"
     }
-  }
+  },
+  "version": "0.0.1"
 }
