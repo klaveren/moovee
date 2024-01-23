@@ -2,29 +2,34 @@
 
 Moovee is a dynamic web application built using Nuxt 3, TypeScript, Pinia, Tailwind CSS. This project is designed to seamlessly interact with the [themoviedb.org](https://themoviedb.org) API, providing users with the ability to search, sort, mark as favorites, and keep track of watched movies.
 
+
 ## **How to use**
 
 1. **Click on Movie Poster:**
-
+   
    - Users can click on the movie poster to open a detailed page featuring information about the selected film.
 
 2. **Top Menu - Movies:**
-
+   
    - Navigate back to the home page by clicking on the "Movies" option in the top menu.
 
 3. **Sorting Options:**
-
+   
    - Utilize the sorting menu to organize movie results based on various criteria, enhancing the user's ability to find specific content.
 
 4. **Filter Functionality:**
-
+   
    - Leverage the filters to efficiently locate a desired movie, making it easier to narrow down search results.
 
 5. **Favorites and Watched (Note: Not Yet Implemented):**
-
+   
    - While the routes for favorite and watched movies exist, the corresponding functionalities are pending implementation. Future updates will introduce these features for a more comprehensive movie-tracking experience.
 
 Explore these features to enhance your interaction with Moovee and stay tuned for upcoming updates, including the implementation of favorite and watched functionalities!
+
+
+
+ 🚀 **Access the Online Version:** [m-o-o-v-e-e.netlify.app](https://m-o-o-v-e-e.netlify.app/)
 
 ## Requirements
 
