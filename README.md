@@ -2,7 +2,11 @@
 
 Moovee is a dynamic web application built using Nuxt 3, TypeScript, Pinia, Tailwind CSS. This project is designed to seamlessly interact with the [themoviedb.org](https://themoviedb.org) API, providing users with the ability to search, sort, mark as favorites, and keep track of watched movies.
 
-## **How to Use:**
+## Requirements
+
+**Node.js:** Version 20 or higher.
+
+## **How to Use**
 
 - Clone the repository.
 
