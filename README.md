@@ -4,9 +4,9 @@ Moovee is a dynamic web application built using Nuxt 3, TypeScript, Pinia, Tailw
 
 ## **How to Use:**
 
-* Clone the repository.
+- Clone the repository.
 
-* Install dependencies using the package manager of your choice.
+- Install dependencies using the package manager of your choice.
 
 ```bash
 # npm
@@ -22,16 +22,16 @@ yarn install
 bun install
 ```
 
-* Prior to launching and running the application, it is essential to set up two new files named `.env` and `.env.test`, each containing the required environment variables. Ensure that the content in both files is identical. [Get your credential here.](https://www.themoviedb.org/settings/api)
+- Prior to launching and running the application, it is essential to set up two new files named `.env` and `.env.test`, each containing the required environment variables. Ensure that the content in both files is identical. [Get your credential here.](https://www.themoviedb.org/settings/api)
 
 ```bash
 # TMDP API AUTHENTICATION
 TMDP_API_KEY = ""
-TMDB_ACCESS_TOKEN = "" 
+TMDB_ACCESS_TOKEN = ""
 TMDB_BASE_URL = "https://api.themoviedb.org/3
 ```
 
-* Launch the application and start exploring movies effortlessly!
+- Launch the application and start exploring movies effortlessly!
 
 ## Development Server
 
