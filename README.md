@@ -1,10 +1,12 @@
-# Nuxt 3 Minimal Starter
+# **Moovee - Movie Discovery App**
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Moovee is a dynamic web application built using Nuxt 3, TypeScript, Pinia, Tailwind CSS. This project is designed to seamlessly interact with the [themoviedb.org](https://themoviedb.org) API, providing users with the ability to search, sort, mark as favorites, and keep track of watched movies.
 
-## Setup
+## **How to Use:**
 
-Make sure to install the dependencies:
+* Clone the repository.
+
+* Install dependencies using the package manager of your choice.
 
 ```bash
 # npm
@@ -19,6 +21,17 @@ yarn install
 # bun
 bun install
 ```
+
+* Prior to launching and running the application, it is essential to set up two new files named `.env` and `.env.test`, each containing the required environment variables. Ensure that the content in both files is identical. [Get your credential here.](https://www.themoviedb.org/settings/api)
+
+```bash
+# TMDP API AUTHENTICATION
+TMDP_API_KEY = ""
+TMDB_ACCESS_TOKEN = "" 
+TMDB_BASE_URL = "https://api.themoviedb.org/3
+```
+
+* Launch the application and start exploring movies effortlessly!
 
 ## Development Server
 
