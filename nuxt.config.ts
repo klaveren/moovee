@@ -31,4 +31,9 @@ export default defineNuxtConfig({
       TMDB_BASE_URL: process.env.TMDB_BASE_URL,
     },
   },
+  nitro: {
+    prerender: {
+      failOnError: true,
+    },
+  },
 })
