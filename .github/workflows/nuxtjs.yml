@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: nuxt-output
-          path: .nuxt/dist/client
+          path: .output/public
 
   # Deployment job
   deploy:

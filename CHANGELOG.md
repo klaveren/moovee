@@ -1,8 +1,6 @@
 # Changelog
 
-
 ## v0.0.1
-
 
 ### 🚀 Enhancements
 
@@ -66,4 +64,3 @@
 
 - Klaveren ([@klaveren](http://github.com/klaveren))
 - HenriqueKlaveren <henrique.klaveren@brandshub.com.br>
-
