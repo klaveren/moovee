@@ -31,9 +31,12 @@ export default defineNuxtConfig({
       TMDB_BASE_URL: process.env.TMDB_BASE_URL,
     },
   },
+  ssr: true,
   nitro: {
+    baseURL: 'http://localhost:8000',
     prerender: {
-      failOnError: true,
+      crawlLinks: true,
+      failOnError: false,
     },
   },
 })
