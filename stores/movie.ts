@@ -6,14 +6,14 @@ import type { TResponseList } from '~/core/types/TResponses'
 
 interface State {
   movie: TMovie | null
-  movies: TMoviesList[] | null
+  movies: TMoviesList[]
   credits: TMovieCredits | null
 }
 
 export const useMovieStore = defineStore('movie', {
   state: (): State => ({
     movie: null,
-    movies: null,
+    movies: [],
     credits: null,
   }),
   getters: {
